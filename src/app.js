@@ -4,82 +4,33 @@ document.addEventListener('alpine:init', () => {
         items: [{
                 id: 1,
                 name: 'Robusta Lampung',
-                img: 'Robus_Lamp.jpg',
+                img: '1.jpg',
                 price: 20000
             },
             {
                 id: 2,
                 name: 'Robusta Brazil',
-                img: 'robus_Brazil.jpg',
+                img: '2.jpg',
                 price: 25000
             },
             {
                 id: 3,
                 name: 'Arabica Wamena',
-                img: 'arabica_wamena.jpg',
+                img: '3.jpg',
                 price: 30000
             },
             {
                 id: 4,
                 name: 'Aceh Gayo Blend',
-                img: 'aceh_gayo.jpg',
+                img: '4.jpg',
                 price: 35000
             },
             {
                 id: 5,
                 name: 'Bali Kintamani',
-                img: 'kintamani.jpg',
+                img: '5.jpg',
                 price: 40000
-            },
-            {
-                id: 6,
-                name: 'AeroPress',
-                img: 'aeropress.jpg',
-                price: 20000
-            },
-            {
-                id: 7,
-                name: 'Coffee latte',
-                img: 'latte.jpg',
-                price: 25000
-            },
-            {
-                id: 8,
-                name: 'Tiramisu Latte',
-                img: 'tiramisu_latte.jpg',
-                price: 28000
-            },
-            {
-                id: 9,
-                name: 'Americano',
-                img: 'Americano.jpg',
-                price: 18000
-            },
-            {
-                id: 10,
-                name: 'Hazelnut Latte',
-                img: 'hazelnut_latte.jpg',
-                price: 30000
-            },
-            {
-                id: 11,
-                name: 'Kopi Susu Gula Aren',
-                img: 'kopiSusuGulaAren.jpg',
-                price: 24000
-            },
-            {
-                id: 12,
-                name: 'Dalgona Coffee',
-                img: 'dalgonaCoffee.jpg',
-                price: 25000
-            },
-            {
-                id: 13,
-                name: 'Manual Brewing V60',
-                img: 'manual_brewing.jpg',
-                price: 26000
             }
-
         ],
     }));
 
@@ -151,7 +102,7 @@ document.addEventListener('alpine:init', () => {
         }
     });
 });
-
+zz
 
 // Form Validation
 const checkoutButton = document.querySelector('.checkout-button');
